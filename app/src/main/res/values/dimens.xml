@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_size">16dp</dimen>
+    <dimen name="medium_size">64dp</dimen>
+    <dimen name="standard_size">137dp</dimen>
+    <dimen name="extra_small_size">8dp</dimen>
+    <dimen name="text_size">15sp</dimen>
+    <dimen name="standard_size_2">126dp</dimen>
+    <dimen name="switch_check_size">206dp</dimen>
+    <dimen name="option_text_size">25sp</dimen>
+</resources>

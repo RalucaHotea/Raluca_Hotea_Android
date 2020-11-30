@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/firstTextView"
+            android:layout_width="@dimen/standard_size"
+            android:layout_height="@dimen/standard_size"
+            android:layout_gravity="center"
+            android:background="@color/peach"
+            android:gravity="center"
+            android:hint="@string/text1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/secondTextView"
+            android:layout_width="@dimen/standard_size"
+            android:layout_height="@dimen/standard_size"
+            android:layout_gravity="center"
+            android:background="@color/light_green"
+            android:gravity="center"
+            android:hint="@string/text2"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:id="@+id/thirdTextView"
+            android:layout_width="@dimen/standard_size"
+            android:layout_height="@dimen/standard_size"
+            android:layout_gravity="center"
+            android:background="@color/baby_blue"
+            android:gravity="center"
+            android:hint="@string/text3"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="@dimen/extra_small_size">
+
+
+        <Button
+            android:id="@+id/blueButton"
+            android:layout_width="@dimen/standard_size_2"
+            android:layout_height="@dimen/standard_size"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/blue"
+            android:gravity="center"
+            android:text="@string/button_1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:layout_width="@dimen/standard_size"
+            android:layout_height="132dp"
+            android:src="@drawable/plate" />
+
+        <Button
+            android:id="@+id/greenButton"
+            android:layout_width="@dimen/standard_size_2"
+            android:layout_height="@dimen/standard_size"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/medium_green"
+            android:gravity="center"
+            android:text="@string/text_3"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/firstEditText"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/medium_size"
+            android:background="#FCCA59"
+            android:hint="@string/edit_text_1"
+            android:inputType="textCapWords" />
+
+        <EditText
+            android:id="@+id/secondEditText"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/medium_size"
+            android:background="#FCCA59"
+            android:hint="This is a new EditText"
+            android:inputType="textCapWords"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <CheckBox
+            android:id="@+id/checkboxNotify"
+            android:layout_width="@dimen/switch_check_size"
+            android:layout_height="match_parent"
+            android:background="@color/blue"
+            android:checked="true"
+            android:text="@string/request" />
+
+        <Switch
+            android:layout_width="@dimen/switch_check_size"
+            android:layout_height="match_parent"
+            android:background="@color/blue"
+            android:text="@string/switch_text"
+            tools:ignore="UseSwitchCompatOrMaterialXml" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/blue"
+            android:numStars="5"
+            android:rating="4"
+            android:theme="@style/RatingBar"
+            android:visibility="visible" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/blue">
+
+        </View>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/blue"
+                android:text="@string/yes_option"
+                android:textSize="@dimen/option_text_size" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/blue"
+                android:text="@string/no_option"
+                android:textSize="@dimen/option_text_size" />
+        </RadioGroup>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/blue">
+
+        </View>
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+

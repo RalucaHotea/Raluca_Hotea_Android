@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Homework1</string>
+    <string name="text1">This is an orange TextView</string>
+    <string name="text2">This is a green TextView</string>
+    <string name="text3">This is a blue TextView</string>
+    <string name="button_1">THIS IS A BUTTON</string>
+    <string name="text_3">THIS IS A GREEN BUTTON</string>
+    <string name="edit_text_1">This is an EditText</string>
+    <string name="request">Notify me :)</string>
+    <string name="switch_text">Auto Backup</string>
+    <string name="yes_option">YES</string>
+    <string name="no_option">NO</string>
+    <string name="first_text">first_text</string>
+    <string name="second_text">second_text</string>
+    <string name="error_missing_text">Please add text</string>
+    <string name="checkbox_checked">CheckBox is checked</string>
+    <string name="checkbox_unchecked">CheckBox is unchecked</string>
+
+</resources>
