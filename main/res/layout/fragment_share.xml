@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_color"
+    tools:context=".Share.ShareFragment">
+
+    <ImageView
+
+        android:layout_width="@dimen/share_image_width"
+        android:layout_height="@dimen/share_image_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/image_share_margin_end"
+        android:layout_marginRight="@dimen/image_share_margin_end"
+        android:layout_marginBottom="@dimen/image_share_margin_bottom"
+        android:background="@drawable/travel_icon">
+
+    </ImageView>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:text="@string/share_text"
+        android:textSize="@dimen/share_text_size">
+
+    </TextView>
+
+</RelativeLayout>

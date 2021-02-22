@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/layout_margin_card"
+    app:cardCornerRadius="@dimen/corner_radius_card"
+    app:cardElevation="@dimen/elevation_card"
+    app:cardMaxElevation="@dimen/max_elevation_card"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/item_trip_height"
+        android:layout_margin="@dimen/item_trip_margin">
+
+        <ImageView
+
+            android:id="@+id/trip_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/trip_image_height"
+            android:scaleType="centerCrop"
+            android:src="@drawable/travel">
+
+        </ImageView>
+
+        <TextView
+
+            android:id="@+id/trip_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/trip_image"
+            android:layout_alignLeft="@id/trip_image"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/trip_name_margin_top"
+            android:layout_marginBottom="@dimen/trip_name_margin_bottom"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="@string/trip_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/trip_name_text_size"
+            android:textStyle="italic">
+
+        </TextView>
+
+        <TextView
+
+            android:id="@+id/destination_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/trip_image"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="@dimen/trip_destination_margin_top"
+            android:layout_marginBottom="@dimen/trip_destination_margin_bottom"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="@string/destination"
+            android:textSize="@dimen/destination_name_text_size"
+            android:textStyle="italic">
+
+
+        </TextView>
+
+        <TextView
+
+            android:id="@+id/price_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="@dimen/price_margin_right"
+            android:layout_marginRight="@dimen/price_margin_right"
+            android:gravity="center"
+            android:text="@string/price_text" />
+
+        <Button
+            android:id="@+id/fav_button"
+            android:layout_width="@dimen/fav_button_size"
+            android:layout_height="@dimen/fav_button_size"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ic_empty_heart"
+            app:backgroundTint="@color/red_cherry" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

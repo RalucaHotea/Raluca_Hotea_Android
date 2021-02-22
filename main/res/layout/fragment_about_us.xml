@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/about_background"
+    tools:context=".AboutUs.AboutUsFragment">
+
+    <TextView
+
+        android:id="@+id/title_about_us_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/title_about_us_margin_left"
+        android:layout_marginLeft="@dimen/title_about_us_margin_left"
+        android:layout_marginEnd="@dimen/title_about_us_margin_right"
+        android:layout_marginRight="@dimen/title_about_us_margin_right"
+        android:layout_marginBottom="@dimen/title_about_us_margin_bottom"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="@string/about_us_title"
+        android:textSize="@dimen/title_about_us_text_size" />
+
+    <TextView
+        android:id="@+id/about_me_paragraph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/about_me_paragraph_margin_left"
+        android:layout_marginLeft="@dimen/about_me_paragraph_margin_left"
+        android:layout_marginTop="@dimen/about_me_paragraph_margin_top"
+        android:layout_marginBottom="@dimen/about_me_paragraph_margin_bottom"
+        android:fontFamily="cursive"
+        android:gravity="fill_horizontal"
+        android:text="@string/description"
+        android:textSize="@dimen/about_me_paragraph_text_size" />
+
+</RelativeLayout>

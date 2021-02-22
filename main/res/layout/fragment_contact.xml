@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Contact.ContactFragment"
+    android:background="@drawable/contact">
+
+
+    <TextView
+
+        android:id="@+id/contact_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/margin_end_star_contact_title"
+        android:layout_marginEnd="@dimen/margin_end_star_contact_title"
+        android:layout_marginBottom="@dimen/contact_title_margin_bottom"
+        android:background="@color/white"
+        android:fontFamily="cursive"
+        android:gravity="center_horizontal"
+        android:text="@string/contact_us"
+        android:textSize="@dimen/contact_title_text_size">
+
+    </TextView>
+
+    <TextView
+
+        android:id="@+id/contact_phone"
+        android:layout_width="@dimen/contact_phone_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/contact_phone_margin_end"
+        android:layout_marginRight="@dimen/contact_phone_margin_end"
+        android:layout_marginBottom="@dimen/contact_phone_margin_bottom"
+        android:background="@color/white"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="@string/phone_text" />
+
+    <TextView
+
+        android:id="@+id/textView3"
+        android:layout_width="@dimen/contact_phone_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/contact_phone_margin_end"
+        android:layout_marginRight="@dimen/contact_phone_margin_end"
+        android:layout_marginBottom="@dimen/contact_email_margin_bottom"
+        android:background="@color/white"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:text="@string/email_text_contact" />
+
+</RelativeLayout>
